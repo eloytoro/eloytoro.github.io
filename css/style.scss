@@ -347,7 +347,6 @@ blockquote {
   font-size: 64px;
   font-weight: 100;
   font-family: 'PT Sans';
-  text-transform: capitalize;
   font-weight: 500;
   margin-top: 1em;
   &,
@@ -555,7 +554,7 @@ blockquote {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
   p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   h2 {
     font-size: 32px;
@@ -582,6 +581,26 @@ pre {
 }
 
 code {
-  font-family: Inconsolata, monospace;
+  font-family: Consolas, Inconsolata, monospace;
   font-size: 12pt;
+}
+
+.col {
+  float: left;
+  width: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  float: right;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
 }
